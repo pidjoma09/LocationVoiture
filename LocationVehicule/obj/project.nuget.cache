@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cLGzJUHM4rQE6FkRfshCWxWd7+eDqKOc4bJ/G2eR7UbW02mYHcdwrf3lXUk+fsAol5TtH/SSVYW4aDkqjdH6YA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MarcPipaDjole\\source\\repos\\LocationVehicule\\LocationVehicule\\LocationVehicule\\LocationVehicule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MarcPipaDjole\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
