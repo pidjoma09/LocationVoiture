@@ -8,7 +8,7 @@ namespace LocationVehicule.Models
 {
      public class Client
     {
-        public int Id { get; set; }
+        public int ClientId { get; set; }
         public string Login { get; set; }
         public int PieceIndentite { get; set; }
         public string Nom { get; set; }

@@ -7,7 +7,8 @@ namespace LocationVehicule.Models
 {
     public class RetourVoiture
     {
-        public int Id { get; set; }
+        public int RetourVoitureId { get; set; }
+        public int LocationId { get; set; }
         public DateTime DateRetour { get; set; }
 
 

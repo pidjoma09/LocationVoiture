@@ -8,7 +8,7 @@ namespace LocationVehicule.Models
 {
     public class Voiture
     {
-        public int  Id { get; set; }
+        public int  VoitureId { get; set; }
         public string Matricule { get; set; }
         public string Modele { get; set; }
         public string Couleurs { get; set; }

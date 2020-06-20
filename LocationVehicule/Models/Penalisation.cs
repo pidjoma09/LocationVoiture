@@ -7,8 +7,8 @@ namespace LocationVehicule.Models
 {
     public class Penalisation
     {
-        public int Id { get; set; }
-        public int Idlocation { get; set; }
+        public int PenalisationId { get; set; }
+        public int locationId { get; set; }
         public double Cout { get; set; }
         public string Raison { get; set; }
     }
