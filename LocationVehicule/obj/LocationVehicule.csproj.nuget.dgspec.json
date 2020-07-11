@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jukes\\Documents\\locationdevoiture\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj": {}
+    "C:\\Users\\Jukes\\Source\\Repos\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jukes\\Documents\\locationdevoiture\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj": {
+    "C:\\Users\\Jukes\\Source\\Repos\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jukes\\Documents\\locationdevoiture\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj",
+        "projectUniqueName": "C:\\Users\\Jukes\\Source\\Repos\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj",
         "projectName": "LocationVehicule",
-        "projectPath": "C:\\Users\\Jukes\\Documents\\locationdevoiture\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj",
+        "projectPath": "C:\\Users\\Jukes\\Source\\Repos\\LocationVoiture\\LocationVehicule\\LocationVehicule.csproj",
         "packagesPath": "C:\\Users\\Jukes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jukes\\Documents\\locationdevoiture\\LocationVoiture\\LocationVehicule\\obj\\",
+        "outputPath": "C:\\Users\\Jukes\\Source\\Repos\\LocationVoiture\\LocationVehicule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,30 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
