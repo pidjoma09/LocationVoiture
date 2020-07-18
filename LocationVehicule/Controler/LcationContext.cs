@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using LocationVehicule.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace LocationVehicule.Controler
 {
     public class LcationContext : DbContext
     {
+        public LcationContext(DbContextOptions<LcationContext> options):base(options)
+        {
 
+        }
 
         public DbSet<Administrateur> Administrateur { get; set; }
         public DbSet<Client> Clients { get; set; }
@@ -21,8 +25,8 @@ namespace LocationVehicule.Controler
         public DbSet<Voiture> Voiture { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-        { 
-            options.UseSqlServer(ConfigurationManager.ConnectionStrings["BloggingDatabase"].ConnectionString);
+        {
+            //options.UseSqlServer("DefaultConnection");
         }
     }
 }
