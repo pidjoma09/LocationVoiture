@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.Extensions.Configuration;
 using LocationVehicule.Controler;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LocationVehicule
 {
@@ -50,7 +51,9 @@ namespace LocationVehicule
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    
                 });
+
             });
         }
     }
